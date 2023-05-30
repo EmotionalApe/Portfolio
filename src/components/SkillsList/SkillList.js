@@ -7,18 +7,25 @@ function SkillList() {
     <div className="sl" id="skillsList">
       <div className="slTexts">
         <h1 className="slTitle">My Skills</h1>
-        <p className="slDesc">Here I will showcase all the skills I have</p>
+        {/* <p className="slDesc"> Idhar skills dalne hai para</p> */}
       </div>
       <div className="slList">
         <Skill
           name="Web Dev"
-          imgUrl="https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg"
-          skills={["HTML", "CSS", "React"]}
+          skills={["HTML", "CSS", "React", "Bootstrap", "Flask", "Firebase"]}
         />
         <Skill
           name="Game Dev"
-          imgUrl="https://www.computersciencedegreehub.com/wp-content/uploads/2016/02/what-is-coding-1024x683.jpg"
           skills={["Unity", "Godot", "C#", "Blender", "Raylib", "Pygame"]}
+        />
+        <Skill
+          name="App Dev"
+          skills={["Python"]}
+        />
+
+        <Skill
+          name="Linux"
+          skills={["Bash", ]}
         />
       </div>
     </div>

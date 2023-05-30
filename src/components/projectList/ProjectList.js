@@ -9,7 +9,7 @@ function ProjectList() {
         <div className="plTexts">
             <h1 className="plTitle">My Projects</h1>
                 <p className="plDesc">
-                    Here I will showcase all the projects that I have wokred on
+                    Projects I have developed over the years
                 </p>
         </div>
         <div className="plList">

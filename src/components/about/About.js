@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.css";
-import marufImg from "../../images/maruf.png";
+import marufImg from "../../images/maruf2.png";
 // import marufImg1 from '../../images/maruf1.png'
 
 function About() {
@@ -14,15 +14,13 @@ function About() {
       <div className="aRight">
         <h1 className="aTitle">About Me</h1>
         <p className="aSub">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ab, maxime?
+          Currently pursuing undergrad in IT from VIIT, Pune.
         </p>
         <p className="desc">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad sint
-          perferendis, suscipit obcaecati non aliquid, modi dolores provident
-          veritatis numquam aperiam dolorum iusto sapiente, labore eveniet
-          eligendi eaque voluptate unde maiores fugiat? Culpa harum inventore
-          soluta quod, libero sapiente totam, facere magnam eligendi sint
-          praesentium? Nobis ullam blanditiis magni.
+          I have explored the domains of Game Dev, Web Dev, App Dev and Linux. I am well versed in the ins and outs of React, HTML, CSS and backends like firebase and flask. 
+          I have done a decent bit of development in Python for making different desktop apps. 
+          Game Dev is something I really enjoy doing. I have experience with tools like Godot, Unity, Raylib and Blender. 
+          Linux has been my daily driver for about a year now and I love to distro hop and explore the different features of the operating system. 
         </p>
       </div>
     </div>

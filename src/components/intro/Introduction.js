@@ -16,11 +16,11 @@ function Introduction() {
                         <div className="iTitleItem">Web Dev</div>
                         <div className="iTitleItem">App Dev</div>
                         <div className="iTitleItem">Linux</div>
-                        <div className="iTitleItem">MMA fan</div>
+                        <div className="iTitleItem">Stock Markets</div>
                     </div>
                 </div>
                 <p className="iDesc">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi mollitia iure temporibus quae dolor doloremque maiores consequuntur delectus repellendus culpa, libero distinctio quibusdam beatae debitis!
+                    A passionate undergrad student who is keen on developing solutions to complex real life problems using the power of technology!
                 </p>
             </div>
         </div>
