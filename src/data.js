@@ -22,5 +22,23 @@ export const projects = [
     link: 'https://github.com/EmotionalApe/topDownShooterGodot',
     name: "Top Down Shooter",
     skills: ["Godot", "GDScript"]
+},
+{   id:5,
+    img: "https://res.cloudinary.com/practicaldev/image/fetch/s--maUIxfjX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/w9iry6gui9ane19djuv5.png",
+    link: 'https://github.com/EmotionalApe/CheckStack',
+    name: "CheckStack",
+    skills: ["HTML", "Bootstrap", "Flask", "Pandas"]
+},
+{   id:6,
+    img: "https://thumbs.dreamstime.com/b/heart-dumbbell-icon-black-background-graphic-web-design-modern-simple-vector-sign-internet-concept-trendy-heart-134605127.jpg",
+    link: 'https://github.com/EmotionalApe/FitNotify',
+    name: "FitNotify",
+    skills: ["Python", "Tkinter", "GmailAPI"]
+},
+{   id:7,
+    img: "https://www.pngitem.com/pimgs/m/135-1354413_transparent-drums-clipart-drum-kit-cartoon-png-png.png",
+    link: 'https://github.com/EmotionalApe/FitNotify',
+    name: "BeatMaker",
+    skills: ["Python", "Pygame"]
 }
 ];
