@@ -1,0 +1,16 @@
+body{
+    /* background-image: linear-gradient(to top right, rgb(45, 0, 45), rgb(110, 60, 110), rgb(45, 0, 45)); */
+    /* background-image: url(https://images.hdqwalls.com/wallpapers/abstract-mix-colors-wide.jpg); */
+    color: white;
+    background-color: rgb(15, 8, 51);
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+a:visited{
+    color: white;
+}
+

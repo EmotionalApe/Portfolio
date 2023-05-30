@@ -1,0 +1,105 @@
+.i{
+    display: flex;
+    height: 100vh;
+}
+
+.iLeft{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.iRight{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    
+}
+
+.iName {
+    /* margin: 0px; */
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.iIntro {
+    /* margin: 0px; */
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 0px;
+}
+
+
+.iLeftWrapper{
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.iTitle{
+    height: 50px;
+    overflow: hidden;
+}
+
+.iTitleWrapper{
+    height: 100%;
+    animation: move 10s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+    25%{
+        transform: translateY(-50px);
+    }
+    50%{
+        transform: translateY(-100px);
+    }
+    75%{
+        transform: translateY(-150px);
+    }
+    100%{
+        transform: translateY(-200px);
+    }
+}
+
+.iTitleItem{
+    height: 50px;
+    font-size: 30px;
+    font-weight: bold;
+    /* color: #59b256; */
+    color:rgb(7, 181, 239);
+    display: flex;
+    align-items: center;
+}
+
+.iImage{
+    height: 100vh;
+    width: 95%;
+    object-fit: contain;
+    position: absolute;
+}
+
+.iBg{
+    clip-path: polygon(30% 0%, 100% 0, 100% 30%, 100% 70%, 100% 100%, 30% 100%, 0% 70%, 0% 30%);
+    background-color: rgb(7, 181, 239);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+@media screen and (max-width: 480px) {
+    .i{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .iImage{
+        display: none;
+    }
+    
+}
