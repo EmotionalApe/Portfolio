@@ -17,12 +17,12 @@ export const projects = [
     name: "Pong in Raylib",
     skills: ["C++","Raylib"]
 },
-{   id:4,
-    img: "https://www.shutterstock.com/shutterstock/videos/1066630480/thumb/8.jpg?ip=x480",
-    link: 'https://github.com/EmotionalApe/topDownShooterGodot',
-    name: "Top Down Shooter",
-    skills: ["Godot", "GDScript"]
-},
+// {   id:4,
+//     img: "https://www.shutterstock.com/shutterstock/videos/1066630480/thumb/8.jpg?ip=x480",
+//     link: 'https://github.com/EmotionalApe/topDownShooterGodot',
+//     name: "Top Down Shooter",
+//     skills: ["Godot", "GDScript"]
+// },
 {   id:5,
     img: "https://res.cloudinary.com/practicaldev/image/fetch/s--maUIxfjX--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://thepracticaldev.s3.amazonaws.com/i/w9iry6gui9ane19djuv5.png",
     link: 'https://github.com/EmotionalApe/CheckStack',
@@ -37,8 +37,14 @@ export const projects = [
 },
 {   id:7,
     img: "https://www.pngitem.com/pimgs/m/135-1354413_transparent-drums-clipart-drum-kit-cartoon-png-png.png",
-    link: 'https://github.com/EmotionalApe/FitNotify',
+    link: 'https://github.com/EmotionalApe/BeatMaker',
     name: "BeatMaker",
     skills: ["Python", "Pygame"]
+},
+{   id:8,
+    img: "https://media.istockphoto.com/id/1322201350/photo/digitally-enhanced-shot-of-a-graph-showing-the-ups-and-downs-shares-on-the-stock-market.jpg?s=170667a&w=0&k=20&c=e_N_FMlvHrBfnVXtdVi5mIBcK6UkZybHfDV7ff5_oS4=",
+    link: 'https://github.com/EmotionalApe/StockPrediction',
+    name: "Stock Price Prediction",
+    skills: ["Python", "ML", "StreamLit"]
 }
 ];
