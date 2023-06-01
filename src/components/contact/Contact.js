@@ -21,7 +21,7 @@ function Contact() {
                 <h1 className="cTitle">Contact me!</h1>
                 <div className="cInfo">
                     <div className="cInfoItem">
-                        <img src={Download} alt="" className="cIcon" /> <a target="_blank" rel='noreferrer' href='https://drive.google.com/file/d/1D3bP1vS1K1mqzQSXmxspmtTnijw9-_tY/view?usp=sharing'>Download Resume</a>
+                        <img src={Download} alt="" className="cIcon" /> <a target="_blank" rel='noreferrer' href='https://drive.google.com/file/d/1GqhMdf3J41CTKooxgWRxISoeKCHupDcn/view?usp=sharing'>Download Resume</a>
                     </div>
                     <div className="cInfoItem">
                         <img src={Github} alt="" className="cIcon" /> <a target="_blank" rel='noreferrer' href='https://github.com/EmotionalApe'>Github profile</a>  
